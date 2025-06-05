@@ -2,6 +2,7 @@ import React from 'react';
 import PricingCard from './components/PricingCard';
 import './App.css';
 import ResponsiveNav from './components/ResponsiveNav';
+import Dashboard from './components/Dashboard';
 
 function App() {
   const pricingPlans = [
@@ -52,6 +53,7 @@ function App() {
           </div>
         ))}
       </div>
+      <Dashboard/>
     </div>
   );
 }
