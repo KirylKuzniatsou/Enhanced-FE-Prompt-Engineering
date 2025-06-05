@@ -86,11 +86,9 @@ const ResponsiveNav: React.FC = () => {
             border-top: 1px solid #eee;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             
-            transform: translateY(-150%);
             opacity: 0;
             pointer-events: none;
             
-            transition: transform 0.3s ease, opacity 0.3s ease;
             z-index: 100;
           }
 
