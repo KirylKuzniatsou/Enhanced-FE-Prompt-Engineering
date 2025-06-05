@@ -1,6 +1,7 @@
 import React from 'react';
 import PricingCard from './components/PricingCard';
 import './App.css';
+import ResponsiveNav from './components/ResponsiveNav';
 
 function App() {
   const pricingPlans = [
@@ -29,7 +30,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center p-4 sm:p-6 md:p-10">
+    <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center p-4 sm:p-6 md:p-10 gap-y-12">
+        <ResponsiveNav />
       <h1 className="text-4xl sm:text-5xl font-bold text-white mb-8 sm:mb-12 md:mb-16 text-center">
         Pricing
       </h1>
